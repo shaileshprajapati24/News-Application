@@ -6,6 +6,7 @@ const moment = require('moment')
 app.locals.moment = moment;
 
 // template engine  
+
 app.use(express.static('public'))
 app.set('view engine','ejs')
 
